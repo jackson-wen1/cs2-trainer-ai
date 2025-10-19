@@ -1,0 +1,7 @@
+﻿Lower Bound,Upper Bound,Aim,Positioning,Utility,accuracy_enemy_spotted,accuracy_head,counter_strafing_good_shots_ratio,flashbang_hit_foe_avg_duration,flashbang_hit_foe_per_flashbang,flashbang_hit_friend_per_flashbang,flashbang_leading_to_kill,he_foes_damage_avg,he_friends_damage_avg,preaim,reaction_time_ms,spray_accuracy,utility_on_death_avg,,,,,,,
+1000,4999,31,46,47,30,14,76,2.43,0.52,0.43,4,8.85,0.77,12.31,708,30,110,,,,,,,
+5000,9999,48,50,49,32,16,79,2.51,0.54,0.39,5,9.31,0.63,11.35,665,32,123,,,,,,,
+10000,14999,58,51,51,32,17,81,2.57,0.56,0.37,5,9.48,0.53,10.78,640,33,129,,,,,,,
+15000,19999,66,53,52,33,19,82,2.64,0.57,0.36,6,9.62,0.48,10.36,618,34,131,,,,,,,
+20000,24999,74,55,54,34,20,83,2.7,0.59,0.35,6,9.74,0.47,10.03,595,35,129,,,,,,,
+25000,99999,82,57,56,35,22,83,2.72,0.6,0.36,7,9.84,0.52,9.45,565,36,124,,,,,,,
