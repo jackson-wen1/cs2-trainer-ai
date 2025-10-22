@@ -1,8 +1,8 @@
-# 🎯 CS2 Training Recommender
+# CS2 Training Recommender
 
 An AI-powered Counter-Strike 2 performance analysis tool that provides personalized training recommendations based on your gameplay data.
 
-## 🚀 Features
+## Features
 
 - **Comprehensive Performance Analysis**: Analyzes aim, positioning, utility usage, and 15+ detailed metrics
 - **AI-Powered Recommendations**: Uses Google Vertex AI to generate personalized training suggestions
@@ -10,7 +10,7 @@ An AI-powered Counter-Strike 2 performance analysis tool that provides personali
 - **Interactive Dashboard**: Modern, responsive UI with detailed metric breakdowns
 - **Real-Time Data**: Integrates with Leetify API for up-to-date player statistics
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: React.js with modern CSS animations
 - **Backend**: FastAPI (Python)
@@ -19,7 +19,7 @@ An AI-powered Counter-Strike 2 performance analysis tool that provides personali
 - **Data Source**: Leetify API
 - **Deployment**: Vercel (Frontend) + Google Cloud Run (Backend)
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.9+
 - Node.js 18+
@@ -27,7 +27,7 @@ An AI-powered Counter-Strike 2 performance analysis tool that provides personali
 - Elasticsearch instance
 - Leetify API key
 
-## 🔧 Installation
+## Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -102,7 +102,7 @@ The application will be available at:
 - Frontend: http://localhost:3000
 - Backend: http://localhost:8080
 
-## 📊 Data Setup
+## Data Setup
 
 ### Elasticsearch Indexes
 Create these indexes in your Elasticsearch instance:
@@ -122,7 +122,7 @@ You can populate the indexes by importing the CSV files from the `reference_tabl
    - `premier-references` ← `reference_tables/premier_reference.csv`
    - `faceit-references` ← `reference_tables/faceit_reference.csv`
 
-## 🌐 Deployment
+## Deployment
 
 ### Automatic Deployment
 Push to `main` branch triggers automatic deployment via GitHub Actions:
@@ -148,7 +148,7 @@ gcloud run deploy --image gcr.io/your-project/cs2-app
    - **Output Directory**: `build`
 3. Deploy (no environment variables needed)
 
-## 🎮 Usage
+## Usage
 
 1. **Enter Steam ID**: Input your Steam64 ID on the homepage
 2. **Analysis**: The system fetches data from Leetify and analyzes performance
@@ -156,7 +156,7 @@ gcloud run deploy --image gcr.io/your-project/cs2-app
 4. **Recommendations**: Get AI-generated training suggestions
 5. **Track Progress**: Re-analyze periodically to track improvement
 
-## 📈 Metrics Analyzed
+## Metrics Analyzed
 
 ### Core Performance
 - **Aim**: Overall aim skill rating
@@ -178,16 +178,16 @@ gcloud run deploy --image gcr.io/your-project/cs2-app
 - Clutch performance
 - Opening duel success
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License.
 
-## 🔗 Links
+## Links
 
 - [Leetify API Documentation](https://leetify.com/api)
 - [Google Vertex AI](https://cloud.google.com/vertex-ai)
 - [Elasticsearch Documentation](https://www.elastic.co/guide/)
 
-## ⚠️ Disclaimer
+## Disclaimer
 
-This tool is for educational and training purposes. It requires a valid Leetify account and CS2 match data to function properly.
+This tool requires a valid Steam account tracked by Leetify and CS2 match data to function properly.
