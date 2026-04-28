@@ -1,7 +1,24 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 
 function App() {
+  return (
+    <div className="App">
+      <div className="unavailable-container">
+        <h1>⚠️ Service Unavailable</h1>
+        <p>This service is no longer in use.</p>
+      </div>
+    </div>
+  );
+}
+
+export default App;
+
+/* ORIGINAL CODE - COMMENTED OUT
+import React, { useState } from 'react';
+import './App.css';
+
+function App_OLD() {
   const [steamId, setSteamId] = useState('');
   const [loading, setLoading] = useState(false);
   const [results, setResults] = useState(null);
@@ -233,7 +250,7 @@ function App() {
     );
   };
 
-  return (
+  return_OLD (
     <div className="App">
       {loading && (
         <div className="loading-container">
@@ -534,3 +551,6 @@ function App() {
 }
 
 export default App;
+
+export default App;
+END OF COMMENTED CODE */
